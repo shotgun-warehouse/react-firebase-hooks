@@ -1,6 +1,6 @@
 {
   "name": "shotgun-react-firebase-hooks",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "React Hooks for Firebase",
   "author": "CS Frequency Limited (https://csfrequency.com)",
   "license": "Apache-2.0",
@@ -45,28 +45,25 @@
     "dev": "npm run clean && rollup -c -w",
     "prepublish": "npm run build"
   },
-  "engines": {
-    "node": "10.x"
-  },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "dependencies": {},
   "devDependencies": {
-    "@types/react": "^16.8.3",
-    "firebase": "^5.5.6",
+    "@types/react": "^16.9.34",
+    "firebase": "^5.11.1",
     "path": "^0.12.7",
-    "react": "^16.8.0",
-    "rimraf": "^2.6.2",
-    "rollup": "0.57.1",
-    "rollup-plugin-commonjs": "9.1.0",
+    "react": "^16.13.1",
+    "rimraf": "^2.7.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-copy": "^0.2.3",
-    "rollup-plugin-node-resolve": "3.3.0",
-    "rollup-plugin-typescript2": "0.12.0",
-    "rollup-plugin-uglify": "3.0.0",
-    "typescript": "2.8.1"
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.12.0",
+    "rollup-plugin-uglify": "^3.0.0",
+    "typescript": "^2.8.1"
   },
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": "^16.13.1"
   },
   "typings": "index.d.ts"
 }
