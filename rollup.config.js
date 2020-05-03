@@ -46,11 +46,11 @@ export default components
       {
         input: `${component}/index.ts`,
         output: {
-          file: `dist/react-firebase-hooks-${component}.js`,
+          file: `dist/shotgun-react-firebase-hooks-${component}.js`,
           format: 'iife',
           sourcemap: true,
           extend: true,
-          name: 'react-firebase-hooks',
+          name: 'shotgun-react-firebase-hooks',
           globals: {
             react: 'react',
           },
